@@ -7,13 +7,15 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { CreateThinksComponent } from './component/thinks/create-thinks/create-thinks.component';
 import { FormsModule } from '@angular/forms';
+import { ListThinksComponent } from './component/thinks/list-thinks/list-thinks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CreateThinksComponent
+    CreateThinksComponent,
+    ListThinksComponent
   ],
   imports: [
     BrowserModule,
